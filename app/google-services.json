@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "387615643385",
+    "firebase_url": "https://livesaidarshan.firebaseio.com",
+    "project_id": "livesaidarshan",
+    "storage_bucket": "livesaidarshan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387615643385:android:1c214f59e2b0c07c0ff428",
+        "android_client_info": {
+          "package_name": "com.prakharsaxena.livesaidarshan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387615643385-tpqgnjp5gjmgp7u7q0uoq9smilps9ek9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.prakharsaxena.livesaidarshan",
+            "certificate_hash": "103e977368f2a2781eb2c1a795ca523414440628"
+          }
+        },
+        {
+          "client_id": "387615643385-mg5jt3ofuk8su4pr2t8ui1i46vabhfil.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqOqEJAXgiwh97TGKjhqYmpWrygslPFTY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387615643385-mg5jt3ofuk8su4pr2t8ui1i46vabhfil.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/linearLayout"
+    tools:context=".MainActivity">
+ <TextView
+          android:layout_height="wrap_content"
+          android:layout_width="wrap_content"
+          android:text="@string/Logo"
+          android:textColor="@android:color/black"
+          android:textSize="30sp"
+     android:layout_marginTop="150dp"
+          android:fontFamily="cursive"
+         android:layout_marginLeft="40sp"
+
+     />
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:textSize="20sp"
+     android:layout_marginTop="15sp"
+     android:textColor="@android:color/black"
+     android:text="Sign In"
+     android:layout_marginLeft="40sp"
+     />
+ <com.google.android.material.textfield.TextInputLayout
+     android:layout_width="340dp"
+     android:layout_marginLeft="40dp"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="20sp">
+
+ <EditText
+     android:layout_width="350dp"
+     android:ems="10"
+     android:layout_height="wrap_content"
+     android:hint="Email"
+     android:importantForAutofill="no"
+     android:inputType="textEmailAddress"
+     android:layout_marginTop="35sp"
+     android:id="@+id/email"
+     />
+ </com.google.android.material.textfield.TextInputLayout>
+ <com.google.android.material.textfield.TextInputLayout
+     android:layout_width="340dp"
+     android:layout_marginLeft="40dp"
+     android:layout_height="wrap_content"
+     app:passwordToggleEnabled="true"
+     app:passwordToggleDrawable="@drawable/icon_selector"
+     app:passwordToggleTint="@color/colorAccent"
+     android:layout_marginTop="20sp">
+
+ <com.google.android.material.textfield.TextInputEditText
+     android:layout_marginTop="15sp"
+     android:layout_width="350dp"
+     android:ems="10"
+     android:importantForAutofill="no"
+     android:inputType="textPassword"
+     android:layout_height="wrap_content"
+     android:hint="Password"
+     android:id="@+id/password"
+
+     />
+ </com.google.android.material.textfield.TextInputLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:text="Trouble Logging in? Click here"
+        android:layout_gravity="center"
+        android:textColor="@android:color/holo_blue_dark"
+        android:id="@+id/help"
+        />
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     >
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_marginBottom="15sp"
+      android:gravity="center_horizontal"
+      android:layout_alignParentBottom="true"
+      >
+
+   <ProgressBar
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/progressLoginAccount"
+       android:visibility="invisible"
+       />
+ <Button
+     android:layout_width="250dp"
+     android:layout_height="wrap_content"
+    android:layout_gravity="center"
+     android:layout_marginTop="45sp"
+     android:textColor="@android:color/white"
+     android:id="@+id/login"
+   android:background="@drawable/button_design"
+     android:text="Sign In"
+     />
+   <Button
+     android:layout_width="250dp"
+     android:layout_height="wrap_content"
+    android:layout_gravity="center"
+     android:layout_marginTop="15sp"
+       android:layout_marginBottom="10dp"
+     android:textColor="@android:color/black"
+     android:id="@+id/createAccount"
+   android:background="@drawable/button_design2"
+     android:text="SIGN UP"
+     />
+ <!--<LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+     android:gravity="center"
+     android:layout_marginTop="20sp">
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="New to Assemble?"
+     android:textColor="@android:color/black"
+     android:gravity="center"
+     />
+ <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Create Account"
+     android:layout_marginLeft="5sp"
+    android:textColor="@android:color/holo_blue_dark"
+    android:id="@+id/createAccount"
+         />
+ </LinearLayout>-->
+</LinearLayout>
+ </RelativeLayout>
+</LinearLayout>

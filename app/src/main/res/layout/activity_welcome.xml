@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linearLayout"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/welcome_heading"
+        android:textColor="#3cb371"
+        android:textSize="15sp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="40sp"
+
+        />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="15sp"
+        android:textColor="@android:color/black"
+        android:text="@string/welcome_question"
+        android:layout_marginLeft="40sp"
+        />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="45sp"
+        android:textColor="@android:color/tertiary_text_dark"
+        android:text="@string/welcome_message"
+        android:layout_marginLeft="40sp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="15sp"
+            android:gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            >
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:id="@+id/progress"/>
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="45sp"
+                android:textColor="@android:color/white"
+                android:background="@drawable/button_design"
+                android:id="@+id/verifyEmail"
+                android:text="@string/welcome_verify"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="20sp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Skip for now"
+                    android:layout_marginLeft="5sp"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:id="@+id/skipNow"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
+

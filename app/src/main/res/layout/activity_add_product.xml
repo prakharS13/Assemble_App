@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".AddProduct">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/footer"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/uploadImage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/uploadProductImage"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/ic_menu_camera"
+
+                android:background="@drawable/button_design2"
+                android:gravity="center"
+                android:paddingLeft="20dp"
+                android:text="Upload Image" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="20sp">
+
+                <EditText
+                    android:id="@+id/productName"
+                    android:layout_width="350dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="20dp"
+                    android:ems="10"
+                    android:hint="Item Name" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="20sp">
+
+                <EditText
+                    android:id="@+id/productQuantity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:hint="Quantity(Number, Weight)" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="20sp">
+
+                <EditText
+                    android:id="@+id/productTag"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:hint="Tags" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="20sp">
+
+                <EditText
+                    android:id="@+id/productNote"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:hint="Notes(expiry date, place)" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/footer"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        >
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:id="@+id/progress_bar"
+            android:visibility="invisible"
+            android:layout_marginTop="10dp"
+            />
+    <Button
+        android:text="Save"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:id="@+id/SaveProduct"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_design"
+
+        />
+
+
+
+</LinearLayout>
+</RelativeLayout>

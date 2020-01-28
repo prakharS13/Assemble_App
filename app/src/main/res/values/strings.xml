@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Assemble</string>
+    <string name="Logo">Assemble</string>
+    <string name="title_activity_third">ThirdActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_home">Home</string>
+    <string name="title_dash">Dash</string>
+    <string name="title_tags">Tags</string>
+    <string name="title_more">More</string>
+    <string name="title_items">Items</string>
+    <string name="welcome_message">Just last step. Verify your email now and your account is all set to use. Click below to send verification email.</string>
+    <string name="welcome_heading">Great, get on board!</string>
+    <string name="welcome_question">Want to access all the features of Assemble app?</string>
+    <string name="welcome_verify">YES. EMAIL ME A LINK</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
